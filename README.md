@@ -10,9 +10,9 @@ Prep for Python OOP and algorithms interview questions
 
 ## Object Oriented Design <a name="object-oriented-design"></a> [Repo](https://github.com/roinzunza/python_adventures/tree/master/oop)
 
-1. [Vending Machine]
-2. [ATM Machine]
-3. [Parking lot] 
+1. [Vending-Machine](https://github.com/roinzunza/python_adventures/blob/master/oop/vending_machine.py)
+2. [atm-machine](https://github.com/roinzunza/python_adventures/blob/master/oop/atm_machine.py) 
+3. [Parking-lot](https://github.com/roinzunza/python_adventures/blob/master/oop/parking_lot.py)
 
 ## Algorithms <a name="algorithms"></a> [Repo](https://github.com/roinzunza/python_adventures/tree/master/algorithms)
 
