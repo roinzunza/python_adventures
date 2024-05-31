@@ -31,6 +31,7 @@ def two_pointers(arr: List[int]) -> int:
 
     max_area : int = 0
 
+    # as long as L smaller than the size of the array we can use L and R to form a container
     while L < len(arr) -1:
 
         this_area: int = min(arr[L], arr[R]) * abs(L - R)
@@ -54,6 +55,7 @@ def two_pointer_2(arr: List[int]) -> int:
 
     max_area : int = 0
 
+    # as long as R is greater than L we can form a container
     while (L < R):
         # area = length * height
         this_area: int = min(arr[L], arr[R]) * (R - L)
