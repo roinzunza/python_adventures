@@ -19,13 +19,7 @@ person 4 bribed 3 times print too chaotic
 
 
 q = [1,2,3,4,5,6,7,8,9] -> q = [1,3,2,4,7,5,6,8,9]
-
-current[0] - next [1] = 2
--> current -> current[2]
-
-R[7] - R[6] = 2
-arr[R] - arr[R-1] = 2
-
+bribes: 3
 """
 from typing import List
 
