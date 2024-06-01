@@ -30,14 +30,11 @@ arr[R] - arr[R-1] = 2
 from typing import List
 
 
-# keep track of how many bribes
-bribes = 0
-
 
 def minimumBribes(q: List[int]) -> None:
 
+    # keep track of bribes
     bribes: int = 0
-    # 1,2,3,5,4
 
     for i in range(len(q)):
 
